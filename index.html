@@ -6,25 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jawan Pakistan</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./icon/jp-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
     <!-- navbar start -->
+
     <header>
         <img src="./images/j3.png" alt="" class="j3">
         <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#" class="train">Trainings</a></li>
-                <li><a href="#">Contact Us</a></li>
+            <ul class="ul">
+                <li class="li"><a href="./index.html">Home</a></li>
+                <li class="li"><a href="#about">About Us</a></li>
+                <li class="li"><a href="#training" class="train">Trainings</a></li>
+                <li class="li"><a href="#contact">Contact Us</a></li>
             </ul>
         </nav>
     </header>
+
     <!-- navbar end -->
 
     <!-- layout start -->
+
     <div class="main">
         <div class="main-left">
             <h1>Introduction to<br>Jawan Pakistan</h1>
@@ -49,7 +56,7 @@
         <div class="con-left">
             <img src="./images/2.png" alt="" srcset="" class="img2">
         </div>
-        <div class="con-right">
+        <div class="con-right" id="about">
             <h1>Mission And Vision<br>Behind Jawan Pakistan</h1>
 
             <p>Our vision is to bring our students into the 21st century through innovation and modern technology. To
@@ -84,7 +91,7 @@
             recruiting <br>and developing the most talented pool of human capital in our industry.</p>
     </div>
 
-    <div class="container3">
+    <div class="container3" id="training">
         <h1>IT Trainings offering in Jawan Pakistan</h1>
         <div class="cards1">
             <div class="mobile">
@@ -128,7 +135,7 @@
         </div>
     </div>
 
-    <div class="container5">
+    <div class="container5" id="contact">
         <div class="form">
             <form action="">
                 <h2>Contact</h2>
@@ -143,7 +150,7 @@
                 <br><br>
                 <label>Phone Number<span>*</span></label>
                 <br>
-                <input type="number" placeholder="0349-******-*">
+                <input type="number" placeholder="03001234567">
                 <br><br>
                 <label>Message<span>*</span></label>
                 <br>
@@ -154,22 +161,51 @@
         </div>
     </div>
 
-
-
-
-
-
     <!-- layout end -->
 
+    <!-- footer start -->
 
+    <div class="container6">
+        <div class="logo">
+            <img src="./images/j3.png" alt="">
+        </div>
 
+        <div class="company">
+            <h4>COMPANY</h4>
+            <br>
+            <ul class="ul2">
+                <li class="home li2"><a href="./index.html">Home</a></li>
+                <li class="li2"><a href="#about">About Us</a></li>
+                <li class="li2"><a href="#training">Trainings</a></li>
+                <li class="li2"><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
 
+        <div class="contact">
+            <h4 class="h4">CONTACT DETAILS</h4>
+            <p class="para1">Muhammad Ali Mughal</p>
+            <p class="para">+923005292675</p>
+            <p class="para">jawantechpk@gmail.com</p>
+        </div>
 
+    </div>
 
+    <footer>
+        <div class="footer">
+            <div class="p">
+                <p class="para3">© 2022 JawanPakistan</p>
+            </div>
+            <div class="icons">
+                <a href="https://www.facebook.com/jawanPakistan786" target="_blank"><i
+                        class="fa-brands fa-facebook-f i"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https:www.linkedin.com/company/jawanpakistan/" target="_blank"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
 
-
-
-
+    <!-- footer end -->
 
 </body>
 
